@@ -16,6 +16,8 @@
 		1AC8157427F912120030543E /* StateFarmhackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8157327F912120030543E /* StateFarmhackathonTests.swift */; };
 		1AC8157E27F912120030543E /* StateFarmhackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8157D27F912120030543E /* StateFarmhackathonUITests.swift */; };
 		1AC8158027F912120030543E /* StateFarmhackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8157F27F912120030543E /* StateFarmhackathonUITestsLaunchTests.swift */; };
+		1AC8158D27F926C20030543E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8158C27F926C20030543E /* HomePageViewController.swift */; };
+		1AC8158F27F92AE20030543E /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8158E27F92AE10030543E /* ExpensesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1AC8157927F912120030543E /* StateFarmhackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateFarmhackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC8157D27F912120030543E /* StateFarmhackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateFarmhackathonUITests.swift; sourceTree = "<group>"; };
 		1AC8157F27F912120030543E /* StateFarmhackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateFarmhackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AC8158C27F926C20030543E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		1AC8158E27F92AE10030543E /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				1AC8155C27F9120B0030543E /* AppDelegate.swift */,
 				1AC8155E27F9120B0030543E /* SceneDelegate.swift */,
 				1AC8156027F9120B0030543E /* ViewController.swift */,
+				1AC8158C27F926C20030543E /* HomePageViewController.swift */,
+				1AC8158E27F92AE10030543E /* ExpensesViewController.swift */,
 				1AC8156227F9120B0030543E /* Main.storyboard */,
 				1AC8156527F912110030543E /* Assets.xcassets */,
 				1AC8156727F912110030543E /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC8158D27F926C20030543E /* HomePageViewController.swift in Sources */,
 				1AC8156127F9120B0030543E /* ViewController.swift in Sources */,
 				1AC8155D27F9120B0030543E /* AppDelegate.swift in Sources */,
+				1AC8158F27F92AE20030543E /* ExpensesViewController.swift in Sources */,
 				1AC8155F27F9120B0030543E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
